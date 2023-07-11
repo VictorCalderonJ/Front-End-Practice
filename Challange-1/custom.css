@@ -1,16 +1,26 @@
 
+
 .overlay {
     width: 100%;
     height: 100%;
     padding: 50px;
     color: #FFF;
     text-shadow: 1px 1px 1px #333;
-    background-image: linear-gradient(135deg, rgb(102, 91, 140) 10%, rgb(51, 45, 233) 100%);
+    background-image: linear-gradient(0deg, rgb(102, 91, 140) 10%, rgb(103, 66, 254) 100%);
     overflow: hidden;
 }
 
 #test {
     border-radius: 30px;
+}
+.square3 {
+    background-color: #ffffff;
+    border-radius: 40px;
+    height: 30rem;
+     width: 23rem;
+    /*box-shadow: 0px 0px 15px -4px #000000;*/
+    margin-top: -30rem;
+    margin-left: 23rem;
 }
 
 .overlay1 {
@@ -18,25 +28,24 @@
     height: 100%;
     color: #FFF;
     text-shadow: 1px 1px 1px #333;
-    background-image: linear-gradient(135deg, rgb(130, 115, 178) 10%, rgb(29, 15, 176) 100%);
+    background-image: linear-gradient(0deg, rgb(83, 58, 245) 10%, rgb(77, 35, 202) 100%);
 
     overflow: hidden
 }
 .square {
-    width: 200px; /* Adjust as needed */
-    height: 200px; /* Adjust as needed */
-    background-color: #6742fe;
+    background-image: linear-gradient(0deg, rgb(103, 66, 254) 10%, rgb(48, 45, 231) 100%);
     border-radius: 40px;
-    height: 30rem;
-    width: 20rem;
+    height: 481px;
+    margin-top: -26rem;
+    margin-left: -14rem;
+    width: 23rem;
 }
 .square1 {
-    width: 200px; /* Adjust as needed */
-    height: 200px; /* Adjust as needed */
-    background-color: #6742fe;
     border-radius: 40px;
     height: 30rem;
-    width: 20rem;
+    width: 46rem;
+    box-shadow: 0px 0px 15px -4px #000000;
+    margin-top: 30rem;
 }
 
 .circle {
@@ -51,4 +60,79 @@
     justify-content: center;
     align-items: center;
 }
+
+.row>* {
+     padding-right: unset;
+     padding-left: unset;
+
+}
+.mx-4 {
+    margin-right: 1.5rem !important;
+    margin-left: 30px !important;
+}
+
+.square2 {
+    background-color: #ffffff;
+    margin-left: 14rem;
+    border-radius: 40px;
+    height: 30rem;
+    width: 24rem;
+}
+
+.minisquare1 {
+    background-color: #fff5f6;
+    border-radius: 6px;
+    height: 3rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+.minisquare2 {
+    background-color: #fefbf2;
+    border-radius: 6px;
+    height: 3rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+.minisquare3 {
+    background-color: #f2fafa;
+    border-radius: 6px;
+    height: 3rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+.minisquare4 {
+    background-color: #f3f3fd;
+    border-radius: 6px;
+    height: 3rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+
+
+.red-text {
+    color: #d36061;
+}
+.yellow-text {
+    color: #EEC77E;
+}
+
+.green-text {
+    color: #4bab94;
+}
+
+.blue-text {
+    color: #202998;
+}
+
+.btn-custom {
+    background-color: #303b59;
+    color: white;
+    border-radius: 2rem;
+    margin-left: -2rem;
+    width: 17rem;
+    height: 55px;
+    font-size: 15px;
+}
+
+
 
