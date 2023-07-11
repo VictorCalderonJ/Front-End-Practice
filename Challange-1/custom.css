@@ -1,3 +1,55 @@
+.container {
+    width: min(100%, 933px);
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: unset;
+    }
+
+    .square {
+        background-image: unset!important;
+        border-radius: 40px;
+        margin-top: unset !important;
+        margin-left: unset !important;
+        width: 100%!important;
+        height: 100%!important;
+}
+    .circle.overlay1.d-flex.align-items-center.justify-content-center {
+        display: none;
+    }
+
+    .square1 {
+        border-radius: unset!important;
+        height: unset!important;
+        width: unset!important;
+        margin-top: unset!important;
+        overflow: hidden;
+        border-radius: 0 0 85% 85% / 30%!important;
+        background-image: linear-gradient(0deg, rgb(103, 66, 254) 10%, rgb(48, 45, 231) 100%);
+    }
+
+    .square2 {
+        display: unset;
+        margin-left: unset!important;
+    }
+
+    .overlay1 {
+        display: unset;
+    }
+
+    .square3 {
+        display: unset;
+    }
+    .text-hide {
+        display: none;
+    }
+    .circle.overlay1.d-flex.align-items-center.justify-content-center{
+        display: none!important;
+    }
+}
+
+
 
 
 .overlay {
@@ -13,11 +65,12 @@
 #test {
     border-radius: 30px;
 }
+
 .square3 {
     background-color: #ffffff;
     border-radius: 40px;
     height: 30rem;
-     width: 23rem;
+    width: 23rem;
     /*box-shadow: 0px 0px 15px -4px #000000;*/
     margin-top: -30rem;
     margin-left: 23rem;
@@ -32,6 +85,7 @@
 
     overflow: hidden
 }
+
 .square {
     background-image: linear-gradient(0deg, rgb(103, 66, 254) 10%, rgb(48, 45, 231) 100%);
     border-radius: 40px;
@@ -40,6 +94,7 @@
     margin-left: -14rem;
     width: 23rem;
 }
+
 .square1 {
     border-radius: 40px;
     height: 30rem;
@@ -61,11 +116,12 @@
     align-items: center;
 }
 
-.row>* {
-     padding-right: unset;
-     padding-left: unset;
+.row > * {
+    padding-right: unset;
+    padding-left: unset;
 
 }
+
 .mx-4 {
     margin-right: 1.5rem !important;
     margin-left: 30px !important;
@@ -86,6 +142,7 @@
     margin-left: 3rem;
     margin-right: 2rem;
 }
+
 .minisquare2 {
     background-color: #fefbf2;
     border-radius: 6px;
@@ -93,6 +150,7 @@
     margin-left: 3rem;
     margin-right: 2rem;
 }
+
 .minisquare3 {
     background-color: #f2fafa;
     border-radius: 6px;
@@ -100,6 +158,7 @@
     margin-left: 3rem;
     margin-right: 2rem;
 }
+
 .minisquare4 {
     background-color: #f3f3fd;
     border-radius: 6px;
@@ -112,6 +171,7 @@
 .red-text {
     color: #d36061;
 }
+
 .yellow-text {
     color: #EEC77E;
 }
@@ -134,5 +194,7 @@
     font-size: 15px;
 }
 
+.practice {
 
+}
 
